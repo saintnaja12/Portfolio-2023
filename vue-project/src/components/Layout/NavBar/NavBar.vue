@@ -1,9 +1,7 @@
 <script>
 import { ref } from 'vue';
-import MainPage from '@/components/Layout/Page/MainPage.vue';
 
 export default {
-  components: { MainPage },
     setup() {
         return {
             
@@ -13,9 +11,9 @@ export default {
 </script>
 
 <template>
-    <MainPage>
-        DEFAULT
-    </MainPage>
+    <div class="">
+        NavBar
+    </div>
 </template>
 
 <style lang="scss" scoped>
