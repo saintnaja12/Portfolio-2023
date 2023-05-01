@@ -1,16 +1,10 @@
 <script>
 import { ref } from 'vue';
-import { RouterView, useRoute } from 'vue-router'
 
 export default {
-  components: {
-        RouterView,
-    },
     setup() {
-
-        const route = useRoute()
         return {
-            route
+            
         }
     },
 }
@@ -18,7 +12,7 @@ export default {
 
 <template>
     <div class="">
-      <RouterView :key="route.fullPath"/>
+        NavBar
     </div>
 </template>
 
