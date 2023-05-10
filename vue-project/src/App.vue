@@ -17,7 +17,7 @@ export default {
 </script>
 
 <template>
-    <div class="">
+    <div class="font-poppins">
       <RouterView :key="route.fullPath"/>
     </div>
 </template>

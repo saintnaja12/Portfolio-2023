@@ -11,8 +11,8 @@ export default {
 </script>
 
 <template>
-    <div class="">
-        NavBar
+    <div class="max-w-screen-xl font-poppins">
+        <div class="font-poppins text-18 text-a-yellow-ff9100 ml-5">TO DO LIST & RADIO</div>
     </div>
 </template>
 
